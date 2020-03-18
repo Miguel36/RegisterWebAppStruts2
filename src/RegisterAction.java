@@ -15,28 +15,28 @@ public class RegisterAction extends ActionSupport{
 	}
 	
 	
-	public void validate() {
-		if (firstName == null || firstName.equals("")) {
-			addFieldError("firstName", "First Name is required");
-		}
-		if (lastName == null || lastName.equals("")) {
-			addFieldError("lastName", "Last Name is required");
-		}
-		
-		if (gender == null) {
-			addFieldError("gender", "Gender is required");
-		}
-		
-		if (age == null) {
-			addFieldError("age", "Age is required");
-		}
-		else if (age <= 18) {
-			addFieldError("age", "Age should be above 18");
-		}
-		if (email == null || email.equals("")) {
-			addFieldError("email", "Email is required");
-		}
-	}
+//	public void validate() {
+//		if (firstName == null || firstName.equals("")) {
+//			addFieldError("firstName", "First Name is required");
+//		}
+//		if (lastName == null || lastName.equals("")) {
+//			addFieldError("lastName", "Last Name is required");
+//		}
+//		
+//		if (gender == null) {
+//			addFieldError("gender", "Gender is required");
+//		}
+//		
+//		if (age == null) {
+//			addFieldError("age", "Age is required");
+//		}
+//		else if (age <= 18) {
+//			addFieldError("age", "Age should be above 18");
+//		}
+//		if (email == null || email.equals("")) {
+//			addFieldError("email", "Email is required");
+//		}
+//	}
 	
 
 	public String getFirstName() {
