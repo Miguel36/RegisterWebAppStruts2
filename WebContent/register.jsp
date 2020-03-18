@@ -7,6 +7,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Registration Form</title>
+<s:head/>
 </head>
 <body>
 
