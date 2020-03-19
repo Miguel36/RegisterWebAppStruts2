@@ -19,7 +19,8 @@
 	<s:radio name="gender" label="Gender" list="{'Male', 'Female'}" />
 	<s:textfield name="age" label="Age" />
 	<s:textfield name="email" label="Email" />
-	<s:submit value="Register" />
+	<s:textarea name="address" label="Address" cols="30" rows="4" />
+	<s:reset value="reset"/><s:submit value="Register" />
 </s:form>
 
 </body>

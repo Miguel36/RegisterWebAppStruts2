@@ -7,6 +7,7 @@ public class RegisterAction extends ActionSupport{
 	private String gender;
 	private Integer age;
 	private String email;
+	private String address;
 
 	public String execute() {
 
@@ -77,6 +78,16 @@ public class RegisterAction extends ActionSupport{
 
 	public void setEmail(String email) {
 		this.email = email;
+	}
+
+
+	public String getAddress() {
+		return address;
+	}
+
+
+	public void setAddress(String address) {
+		this.address = address;
 	}
 
 }
